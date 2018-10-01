@@ -23,4 +23,4 @@ and run it::
 
 Use the `Github issue tracker`_ for any problems.
 
-.. _`Github issue tracker`: https://github.com/izi-ecommerce/izi-core-paypal/issues
+.. _`Github issue tracker`: https://github.com/izi-ecommerce/izi-paypal/issues
