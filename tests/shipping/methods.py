@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+from decimal import Decimal as D
+
+from izi.apps.shipping.methods import Free
+
+
+class SecondClassRecorded(Free):
+    code = 'uk_rm_2ndrecorded'
+    name = 'Royal Mail Signed For™ 2nd Class'
+
+    charge_excl_tax = D('0.00')
+    charge_incl_tax = D('0.00')
